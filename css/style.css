@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: blanchedalmond;
+  background: url(../assets/wood.jpg);
 }
 
 .flex-container {
@@ -28,7 +28,7 @@ body {
 }
 
 .white-board {
-  background-color: white;
+  background: url(../assets/white.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .black-board {
-  background-color: black;
+  background-image: url(../assets/black.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
