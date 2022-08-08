@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.white-board {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  font-size: 8rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.black-board {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  font-size: 8rem;
+  height: 12rem;
+  width: 12rem;
+}
