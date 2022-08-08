@@ -52,3 +52,13 @@ body {
   height: 12rem;
   width: 12rem;
 }
+
+.white-piece {
+  color: white;
+  -webkit-text-stroke: 0.05rem black;
+}
+
+.black-piece {
+  color: black;
+  -webkit-text-stroke: 0.05rem #aaa;
+}
